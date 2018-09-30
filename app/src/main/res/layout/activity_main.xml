@@ -40,4 +40,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeMsg2" />
 
+    <ImageView
+        android:id="@+id/takenImageView"
+        android:layout_width="144dp"
+        android:layout_height="125dp"
+        app:layout_constraintBottom_toTopOf="@+id/scanBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeMsg2"
+        app:srcCompat="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/maskResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scanBtn" />
+
 </android.support.constraint.ConstraintLayout>
